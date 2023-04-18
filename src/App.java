@@ -15,8 +15,11 @@ public class App {
         bs.sortString(str, "asc");
         bs.sortString(str, "desc"); */
 
-        InsertionSort is = new InsertionSort();
+        /* InsertionSort is = new InsertionSort();
         is.insertionSortASC(arr);
-        is.insertionSortDESC(arr);
+        is.insertionSortDESC(arr); */
+
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(arr);
     }
 }
